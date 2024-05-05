@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=League+Spartan:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/Desktop\ -\ Mercury\ -\ 01.png);
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1368px;
+    height: 85px;
+    border-bottom: solid #38384f 1px;
+    .tre_line {
+      width: 1px;
+      height: 1px;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      align-items: center;
+      gap: 33px;
+      width: 665px;
+      height: 25px;
+      opacity: 0.75;
+      a {
+        font-family: "Spartan", sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 227%;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1112px;
+    height: 726px;
+    .container-header {
+      .box_container {
+        width: 1px;
+        height: 1px;
+        font-size: 1px;
+        color: #070724;
+      }
+    }
+    .charset {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 300px;
+      width: 1110px;
+      height: 547px;
+      .mercury_img {
+        width: 290px;
+        height: 290px;
+      }
+      .info {
+        width: 350px;
+        height: 541px;
+        .info_box {
+          display: flex;
+          flex-direction: column;
+          gap: 23px;
+          width: 350px;
+          height: 326px;
+          h1 {
+            font-family: "Antonio", sans-serif;
+            font-weight: 500;
+            font-size: 80px;
+            text-transform: uppercase;
+            color: #fff;
+          }
+          .is_he {
+            font-family: "Spartan", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 179%;
+            color: #fff;
+          }
+          .source {
+            font-family: "Spartan", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 179%;
+            color: #fff;
+            a {
+              font-weight: 700;
+              text-decoration: underline;
+              text-decoration-skip-ink: none;
+              color: #fff;
+              opacity: 0.5;
+            }
+          }
+        }
+        .container {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          width: 350px;
+          height: 176px;
+          .container_box1 {
+            width: 350px;
+            height: 48px;
+            background: rgba(65, 158, 187, 1);
+            p {
+              font-family: "Spartan", sans-serif;
+              padding-top: 12px;
+              padding-left: 28px;
+              font-weight: 700;
+              font-size: 12px;
+              line-height: 208%;
+              letter-spacing: 0.21em;
+              text-transform: uppercase;
+              color: #38384f;
+            }
+            span {
+              color: #fff;
+            }
+          }
+          .container_box {
+            border: 1px solid #38384f;
+            width: 350px;
+            height: 48px;
+            p {
+              font-family: "Spartan", sans-serif;
+              font-weight: 700;
+              padding-top: 12px;
+              font-size: 12px;
+              line-height: 208%;
+              letter-spacing: 0.21em;
+              text-transform: uppercase;
+              padding-left: 28px;
+              color: #38384f;
+              span {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+    .statestica {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      width: 1112px;
+      height: 128px;
+      .statestica_box {
+        border: 1px solid #38384f;
+        width: 255px;
+        height: 128px;
+        p {
+          font-family: "Spartan", sans-serif;
+          padding-left: 23px;
+          font-weight: 700;
+          font-size: 11px;
+          padding-top: 20px;
+          line-height: 227%;
+          letter-spacing: 0.09em;
+          text-transform: uppercase;
+          color: #fff;
+        }
+        h2 {
+          font-family: "Antonio", sans-serif;
+          padding-left: 23px;
+          font-weight: 500;
+          font-size: 40px;
+          letter-spacing: -0.04em;
+          text-transform: uppercase;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1250px) {
+  body {
+    header {
+      justify-content: space-evenly;
+      flex-direction: column;
+      padding-top: 32px;
+      padding-left: 51px;
+      width: 100%;
+      max-width: 665px;
+      height: 160px;
+      .tre_line {
+        width: 1px;
+        height: 1px;
+      }
+    }
+    section {
+      gap: 50px;
+      padding-left: 51px;
+      padding-right: 52px;
+      width: 665px;
+      .container-header {
+        .box_container {
+          width: 1px;
+          height: 1px;
+          font-size: 1px;
+          color: #070724;
+        }
+      }
+      .charset {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        gap: 0px;
+        width: 665px;
+        height: 300px;
+        .mercury_img {
+          width: 184px;
+          height: 184px;
+        }
+        .info {
+          display: flex;
+          align-items: center;
+          gap: 69px;
+          width: 665px;
+          height: 253px;
+          .info_box {
+            width: 339px;
+            height: 253px;
+            h1 {
+              font-size: 80px;
+            }
+            .is_he {
+              font-size: 11px;
+            }
+            .source {
+              font-size: 12px;
+            }
+          }
+          .container {
+            width: 281px;
+            height: 152px;
+            .container_box1 {
+              width: 281px;
+              height: 40px;
+              p {
+                font-size: 9px;
+              }
+            }
+            .container_box {
+              width: 281px;
+              height: 40px;
+              p {
+                font-size: 9px;
+              }
+            }
+          }
+        }
+      }
+      .statestica {
+        margin-top: 0;
+        gap: 10px;
+        width: 665px;
+        height: 88px;
+        .statestica_box {
+          width: 164px;
+          height: 88px;
+          p {
+            padding-top: 20px;
+            font-size: 8px;
+          }
+          h2 {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    header {
+      flex-direction: row;
+      padding-left: 24px;
+      padding-right: 24px;
+      margin: 0 auto;
+      gap: 194px;
+      width: 100%;
+      max-width: 327px;
+      height: 36px;
+      .tre_line {
+        width: 24px;
+        height: 17px;
+      }
+      ul {
+        display: none;
+      }
+    }
+    section {
+      padding-top: 10px;
+      width: 327px;
+      height: 689px;
+      .container-header {
+        display: flex;
+        justify-content: center;
+        gap: 43px;
+        width: 327px;
+        height: 50px;
+        border-bottom: 1px solid #38384f;
+        .box_container {
+          width: 80px;
+          height: 50px;
+          font-weight: 700;
+          align-items: center;
+          padding-top: 15px;
+          font-size: 9px;
+          letter-spacing: 0.21em;
+          text-transform: uppercase;
+          text-align: center;
+          cursor: pointer;
+          color: #fff;
+        }
+      }
+      .charset {
+        width: 327px;
+        height: 589px;
+        .mercury_img {
+          width: 111px;
+          height: 111px;
+        }
+        .info {
+          width: 327px;
+          height: 235px;
+          .container {
+            display: none;
+          }
+          .info_box {
+            width: 327px;
+            height: 235px;
+            h1 {
+              font-size: 40px;
+              text-align: center;
+            }
+            .is_he {
+              font-size: 11px;
+              line-height: 200%;
+              text-align: center;
+            }
+            .source {
+              align-self: center;
+            }
+          }
+        }
+      }
+      .statestica {
+        flex-direction: column;
+        width: 327px;
+        height: 216px;
+        .statestica_box {
+          display: flex;
+          justify-content: center;
+          justify-content: space-between;
+          width: 327px;
+          height: 48px;
+          p {
+            align-self: center;
+          }
+          h2 {
+            padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
